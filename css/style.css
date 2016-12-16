@@ -1,0 +1,55 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.action-btn {
+  margin: 0 20px;
+  transform: rotate(90deg);
+  transition: all 0.4s cubic-bezier(0.42, 0, 1, 1);
+}
+
+.action-btn.collapsed {
+  transform: rotate(0deg);
+}
+
+.side-bar {
+  top: initial;
+  width: 200px;
+  transform: translateX(0%);
+  transition: all 0.4s cubic-bezier(0.42, 0, 1, 1);
+}
+
+.side-bar a {
+  padding: 0 20px;
+  transition: all 0.4s cubic-bezier(0.42, 0, 1, 1);
+}
+
+.side-bar a span {
+  position: absolute;
+  transition: all 0.4s cubic-bezier(0.42, 0, 1, 1);
+}
+
+.side-bar.collapsed {
+  width: 64px;
+}
+
+.side-bar.collapsed .subheader {
+  height: 0;
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.side-bar.collapsed a span {
+  opacity: 0;
+}
